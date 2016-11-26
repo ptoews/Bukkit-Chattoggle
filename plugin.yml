@@ -1,0 +1,26 @@
+name: ChatToggle
+main: me.doopy.chattoggle.ChatToggle
+version: 0.2
+author: D00py
+website:
+commands:
+  togglechat:
+    description: toggles the chat
+    usage: /togglechat
+    permission: chattoggle.toggle
+  tc:
+    description: toggles the chat
+    usage: /tc
+    permission: chattoggle.toggle
+permissions:
+    chattoggle.*:
+        description: Grants you all permissions of this plugin.
+        children:
+            chattoggle.toggle: true
+            chattoggle.ignore: true
+    chattoggle.toggle:
+        description: Allows you to toggle the chat.
+        default: op
+    chattoggle.ignore:
+        description: You can still chat when chat is disabled.
+        default: op
