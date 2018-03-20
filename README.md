@@ -3,6 +3,6 @@ A plugin for the Minecraft server software Bukkit, that enables/disables the ing
 
 The BukkitDev page with usage instructions and more can be found here: https://dev.bukkit.org/bukkit-plugins/chattoggle/
 
--
+---
 
 _Project creation 2011_
